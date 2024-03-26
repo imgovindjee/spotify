@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1db954;
+    gap: 5rem;
+
+    img {
+        height: 20vh;
+    }
+
+    button {
+        padding: 1rem 5rem;
+        border-radius: 5rem;
+        cursor: pointer;
+        font-size: 1.4rem;
+        color: #49f585;
+        border: none;
+        background-color: black;
+
+        &:hover{
+            background-color: rgb(39, 37, 37);
+            transition: all .3s ease-in-out;
+        }
+    }
+}

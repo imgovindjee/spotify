@@ -1,0 +1,11 @@
+.volume__container{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+
+    input{
+        width: 15rem;
+        border-radius: 2rem;
+        height: .2rem;
+    }
+}

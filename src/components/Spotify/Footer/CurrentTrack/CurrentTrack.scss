@@ -1,0 +1,22 @@
+.currentTrack__container {
+
+    .track {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            gap: .3rem;
+
+            &__track__name {
+                color: whitesmoke;
+            }
+
+            .track__info__track__artists {
+                color: #b3b3b3;
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.body__container {
+    margin-top: 1rem;
+
+    .playlist {
+        margin: 0 2rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        .image {
+            img {
+                height: 15rem;
+                box-shadow: rgba(0, 0, 0, .26) 0px 25px 50px -12px;
+            }
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            color: #e0dede;
+            gap: 1rem;
+
+            .title {
+                color: whitesmoke;
+                font-size: 4rem;
+            }
+        }
+    }
+
+    .list {
+        .header__row {
+            display: grid;
+            grid-template-columns: .3fr 3fr 2fr .1fr;
+            color: #dddcdc;
+            margin: 1.2rem 0 0 0;
+            position: sticky;
+            padding: 1rem 3rem;
+            top: 15vh;
+            transition: all .3s ease-in-out;
+        }
+
+        // TODO
+        // hr{
+            
+        // }
+
+        .tracks {
+            margin: 0 2rem;
+            flex-direction: column;
+            display: flex;
+            margin-bottom: 5rem;
+
+            .row {
+                padding: .5rem 1rem;
+                display: grid;
+                grid-template-columns: .3fr 3.1fr 1.9fr .1fr;
+
+                &:hover{
+                    background-color: rgba(0, 0, 0, .7);
+                    cursor: pointer;
+                }
+
+                .col{
+                    display: flex;
+                    align-items: center;
+                    color: #dddcdc;
+
+                    img{
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+                .details{
+                    display: flex;
+                    gap: 1rem;
+
+                    .info{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
