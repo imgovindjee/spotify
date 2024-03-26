@@ -11,8 +11,10 @@ const Login = () => {
     const HandleClick = () => {
         console.log("Clicked");
         // const clientId = "f4ad14d4e61a454fb649efaa36df5f05";
-        const clientId = "bb976045cff74c3b89c5ed9dad2dddf2";
-        const redirect_URL = "http://localhost:5173/"
+        // const clientId = "bb976045cff74c3b89c5ed9dad2dddf2";
+        // const redirect_URL = "http://localhost:5173/"
+        const clientId = "26cde810a12f4160af42de05ec2afaed"
+        const redirect_URL ="https://imgovindjee.github.io/spotify/";
         const API_URL = "https://accounts.spotify.com/authorize"
         const scope = [
             "user-read-email",
